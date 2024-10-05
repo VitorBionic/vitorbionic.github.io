@@ -1,0 +1,137 @@
+/* geral style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.normal-text {
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    font-size: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+
+body {
+    font-family: 'infernomedium', Helvetica, sans-serif;
+    background: #000 url(../assets/img/flaming-background.jpg) repeat-x;
+    color: #ff5a00;
+}
+
+#container {
+    width: 920px;
+    margin: 25px auto;
+    background: #131313;
+}
+
+/* header style */
+#container header img#header-icon {
+    max-width: 200px;
+    float: left;
+}
+
+#container header ul {
+    border: 2px solid #ff5a00;
+    background: #ffce00;
+    list-style: none;
+    float: left;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+#container header ul li {
+    float: left;
+}
+
+#container header ul li a {
+    text-decoration: none;
+    color: #ff5a00;
+    display: block;
+    background: url(../assets/img/borda.png) no-repeat center left;
+    padding: 0.4em 1em;
+    line-height: 2.3em;
+}
+
+#container .first-nav a {
+    background: none;
+}
+
+#container header a:hover {
+    color: red;
+}
+
+body#home #container header a#home-nav,
+body#projects #container header a#projects-nav,
+body#aboutme #container header a#aboutme-nav,
+body#contact #container header a#contact-nav,
+body#gallery #container header a#gallery-nav {
+    background: #ff5a00;
+    color: #ffce00;
+    cursor: text;
+}
+
+.clear {
+    clear: both;
+}
+
+/* main content style */
+
+#container main h2 {
+    font-size: 1.3em;
+    margin: 5px;
+    padding: 0px;
+}
+
+#container main section {
+    margin: 25px 5px;
+}
+
+#container main p {
+    margin: 5px;
+    padding: 5px;
+    color: #ffce00;
+}
+
+#container main {
+    display: block;
+    margin: 10px auto;
+}
+
+#container main figure {
+    margin: 0 auto;
+}
+
+.photo-of-legend {
+    border: 15px outset #ff5a00;
+    max-width: 320px;
+    position: relative;
+    left: 285px;
+}
+
+body#projects #container main a {
+    display: inline-block;
+    padding: 5px;
+    background:#ffce00;
+    text-decoration: none;
+    border: 2px solid #ff5a00;
+    border-radius: 30px;
+}
+
+body#projects #container main a:visited {
+    color: #ff5a00;
+}
+
+body#projects #container main a:hover {
+    color: red;
+}
+
+/* footer style */
+footer {
+    background: #ff9a00;
+    padding: 20px;
+}
+
+footer article {
+    width: 920px;
+    margin: 0 auto;
+    color: red;
+}
